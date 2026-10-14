@@ -1,0 +1,294 @@
+{
+  "commit": "307e94c1b1d6537ba7a2a71b32a22d563d3ea25c",
+  "source": "Menu/utilities.gsc:GetColorNames/GetColorValues",
+  "colors": [
+    {
+      "name": "Red",
+      "rgb": [
+        255,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Green",
+      "rgb": [
+        0,
+        255,
+        0
+      ]
+    },
+    {
+      "name": "Blue",
+      "rgb": [
+        0,
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Black",
+      "rgb": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "White",
+      "rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "Gray",
+      "rgb": [
+        128,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Dodger Blue",
+      "rgb": [
+        57,
+        152,
+        254
+      ]
+    },
+    {
+      "name": "Ocean Blue",
+      "rgb": [
+        0,
+        100,
+        200
+      ]
+    },
+    {
+      "name": "Deep Blue",
+      "rgb": [
+        0,
+        0,
+        139
+      ]
+    },
+    {
+      "name": "Midnight Blue",
+      "rgb": [
+        25,
+        25,
+        112
+      ]
+    },
+    {
+      "name": "Sky Blue",
+      "rgb": [
+        135,
+        206,
+        250
+      ]
+    },
+    {
+      "name": "Cyan",
+      "rgb": [
+        0,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "Aqua",
+      "rgb": [
+        0,
+        255,
+        200
+      ]
+    },
+    {
+      "name": "Teal",
+      "rgb": [
+        0,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "Pink",
+      "rgb": [
+        255,
+        110,
+        255
+      ]
+    },
+    {
+      "name": "AIO Pink",
+      "rgb": [
+        255,
+        150,
+        255
+      ]
+    },
+    {
+      "name": "Hot Pink",
+      "rgb": [
+        255,
+        20,
+        147
+      ]
+    },
+    {
+      "name": "Rose",
+      "rgb": [
+        255,
+        102,
+        204
+      ]
+    },
+    {
+      "name": "Fuchsia",
+      "rgb": [
+        255,
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Purple",
+      "rgb": [
+        128,
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Lavender",
+      "rgb": [
+        200,
+        162,
+        255
+      ]
+    },
+    {
+      "name": "Violet",
+      "rgb": [
+        238,
+        130,
+        238
+      ]
+    },
+    {
+      "name": "Indigo",
+      "rgb": [
+        75,
+        0,
+        130
+      ]
+    },
+    {
+      "name": "Plasma Purple",
+      "rgb": [
+        200,
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Neon Purple",
+      "rgb": [
+        170,
+        0,
+        255
+      ]
+    },
+    {
+      "name": "Crimson",
+      "rgb": [
+        220,
+        20,
+        60
+      ]
+    },
+    {
+      "name": "Fire Red",
+      "rgb": [
+        255,
+        30,
+        30
+      ]
+    },
+    {
+      "name": "Ruby",
+      "rgb": [
+        224,
+        17,
+        95
+      ]
+    },
+    {
+      "name": "Orange",
+      "rgb": [
+        255,
+        128,
+        0
+      ]
+    },
+    {
+      "name": "Deep Orange",
+      "rgb": [
+        255,
+        80,
+        0
+      ]
+    },
+    {
+      "name": "Yellow",
+      "rgb": [
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "name": "Gold",
+      "rgb": [
+        255,
+        215,
+        0
+      ]
+    },
+    {
+      "name": "Mint",
+      "rgb": [
+        152,
+        255,
+        152
+      ]
+    },
+    {
+      "name": "Lime",
+      "rgb": [
+        150,
+        255,
+        0
+      ]
+    },
+    {
+      "name": "Toxic Green",
+      "rgb": [
+        0,
+        255,
+        100
+      ]
+    },
+    {
+      "name": "Emerald",
+      "rgb": [
+        0,
+        201,
+        87
+      ]
+    }
+  ]
+}

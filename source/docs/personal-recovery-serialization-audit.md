@@ -1,0 +1,13 @@
+# Personal recovery serialization
+
+The read-only local recovery path previously captured the local service before acquiring the shared Godmode registry gate. That ordering allowed recovery to hold the local service during an explicit menu action's completion validation. Busy local preflight then appeared as unavailable identity proof, and the batch coordinator could reverse its owned OFF write to the prior ON state.
+
+Two deterministic regressions use the real connection, registry, local service and existing bound adapters against owned fixture storage. One holds registry validation and demonstrates that recovery reads local state and queues the old receipt. The other holds a peer OFF readback, admits recovery into a blocked local read, and demonstrates failure with the peer restored ON. These establish the source coordination bug, not the cause of the earlier retail OFF report.
+
+Background recovery now acquires the existing registry gate with a zero-timeout attempt before local preparation. Busy and closed rejections return without preparation, a live snapshot, a queued receipt or a consumed retry deadline. Admitted preparation publishes the same operating marker used by menu capability mapping and then uses the existing capture checks. The public waiting capture route and prepared route share one capture body. No second owner, public API, persisted state or gameplay write path was added.
+
+The retry deadline is consumed only after registry admission. Real proof failures remain rate-limited. Local-gate contention after registry admission retains its previous finite retry behavior; the new guarantee concerns shared-registry contention. Initial local capture retains its discovery ordering. The later [retained capture update](personal-capture-serialization-audit.md) moves explicit refresh of a known owner inside registry admission.
+
+Cancellation is checked before the next validation phase after successful preparation. Tests cover pre-cancellation, cancellation during the retained local source read, and cancellation in the boundary after preparation. Every admitted path clears its operating marker and releases the registry gate. Existing shutdown tests still require the observation task to join before source disposal and preserve unregistered local cleanup ownership.
+
+The change does not relax full identity, life, clock, original-byte or flag ownership checks. It adds no guessed ammo offsets or engine callbacks. Tests do not attach to a game. Normal Steam co-op, full Godmode coverage and restoration, all maps, quests, physical controls and full Apparition parity remain unverified. The saved playable backups and installed products remain unchanged.

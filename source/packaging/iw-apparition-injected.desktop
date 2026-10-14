@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=IW Zombies - Injected Menu
+Comment=Launch after spawning in a Steam custom Zombies match
+Exec=sh -c "exec python3 \\"\\$HOME/Downloads/IW-Apparition-DLL/launch_injected.py\\""
+Icon=applications-games
+Terminal=false
+Categories=Game;

@@ -1,0 +1,10 @@
+47799.569:0134:0138:trace:loaddll:build_module Loaded L"Z:\\game\\iw7_ship.exe" at 0000000140000000: native
+47897.303:0134:0138:trace:loaddll:build_module Loaded L"Z:\\private\\iw_apparition_injected.dll" at 00006FFFF8CC0000: native
+49252.410:0139:0264:err:seh:NtRaiseException Unhandled exception code c0000005 flags 0 addr 0x1000
+49252.411:0134:0264:trace:seh:dispatch_exception code=c0000005 (EXCEPTION_ACCESS_VIOLATION) flags=0 addr=0000000280C12580
+49252.411:0134:0264:trace:seh:dispatch_exception  info[0]=0000000000000008
+49252.411:0134:0290:trace:seh:dispatch_exception code=c0000005 flags=0 addr=0000000000001234
+49252.411:0134:0264:trace:seh:dispatch_exception  info[1]=0000000280C12580
+49252.412:0134:0264:warn:seh:virtual_unwind backtrace: 0000000280C12580: unknown module.
+49252.412:0134:0264:err:oleacc:find_class_data unhandled window class L"private-window"
+49252.412:0134:0264:err:seh:NtRaiseException Unhandled exception code c0000409 flags 1 addr 0x1412ba464

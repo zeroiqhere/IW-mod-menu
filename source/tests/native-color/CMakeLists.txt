@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(SmoothRainbowTests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+enable_testing()
+# This source-color check uses no Windows, ImGui, feature, or hook code
+add_executable(SmoothRainbowTests SmoothRainbowTests.cpp ../../native/render/SmoothRainbow.cpp)
+target_compile_options(SmoothRainbowTests PRIVATE -Wall -Wextra -Werror)
+add_test(NAME SmoothRainbowTests COMMAND SmoothRainbowTests)

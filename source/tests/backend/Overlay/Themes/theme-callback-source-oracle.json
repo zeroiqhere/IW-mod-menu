@@ -1,0 +1,1242 @@
+{
+  "pin": "307e94c1b1d6537ba7a2a71b32a22d563d3ea25c",
+  "facts": "Each observed row is selected, BOOL ON; Boxes display; no keyboard string; all three LUI feature facts true. Supplied observed widgets only, no capability claim.",
+  "cases": [
+    {
+      "design": "Apparition",
+      "mode": "Fixed",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Title",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:118-119;217-218"
+        },
+        {
+          "role": "Separator",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Apparition",
+      "mode": "RainbowSample",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Title",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:118-119;217-218"
+        },
+        {
+          "role": "Separator",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Classic",
+      "mode": "Fixed",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Banner",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:111-114;210-213"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Classic",
+      "mode": "RainbowSample",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Banner",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:111-114;210-213"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Native",
+      "mode": "Fixed",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Banner",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:111-114;210-213"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Native",
+      "mode": "RainbowSample",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Banner",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:111-114;210-213"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "AIO",
+      "mode": "Fixed",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Separator",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsBackground",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoBackground",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "AIO",
+      "mode": "RainbowSample",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Separator",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsBackground",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoBackground",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Basic",
+      "mode": "Fixed",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 1000,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Title",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:118-119;217-218"
+        },
+        {
+          "role": "Separator",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "FixedFadeColor",
+          "durationMilliseconds": 500,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    },
+    {
+      "design": "Basic",
+      "mode": "RainbowSample",
+      "commands": [
+        {
+          "role": "RowBooleanInterior",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowInvalidOption",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowBooleanText",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowSubmenu",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowIntegerSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "RowStringSlider",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Rows",
+          "source": "Menu/menu_customization.gsc:94-104"
+        },
+        {
+          "role": "Scroller",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:108-109;207-208"
+        },
+        {
+          "role": "Title",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:118-119;217-218"
+        },
+        {
+          "role": "Separator",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "BottomLine",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "MenuChrome",
+          "source": "Menu/menu_customization.gsc:121-125;220-224"
+        },
+        {
+          "role": "InstructionsOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "Instructions",
+          "source": "Menu/menu_customization.gsc:129-132;228-231"
+        },
+        {
+          "role": "PlayerInfoOutline",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "PlayerInfo",
+          "source": "Menu/menu_customization.gsc:134-137;233-236"
+        },
+        {
+          "role": "ZombieCounter",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "EntityCount",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        },
+        {
+          "role": "CustomCrosshair",
+          "operation": "DirectColor",
+          "durationMilliseconds": 0,
+          "target": "palette",
+          "lifetime": "ExternalLui",
+          "source": "Menu/menu_customization.gsc:139-159;238-256"
+        }
+      ]
+    }
+  ]
+}

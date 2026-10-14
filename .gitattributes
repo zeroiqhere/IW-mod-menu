@@ -1,0 +1,2 @@
+# Preserve the bytes authenticated by the saved source and artifact manifests
+* -text

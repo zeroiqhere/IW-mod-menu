@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(ScrollPresentationTests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+enable_testing()
+# Geometry and clocks are checked without ImGui, Windows, input or feature dependencies
+add_executable(ScrollPresentationTests paint/BooleanPaintScrollTests.cpp callbacks/CallbackScrollTests.cpp ScrollPresentationTests.cpp policy/OpeningPolicyScrollTests.cpp policy/LocalMenuEligibilityScrollTests.cpp spacer/SpacerScrollTests.cpp ../../native/render/ScrollPresentation.cpp ../../native/render/spacer/SpacerScrollPresentation.cpp ../../native/runtime/scroll/SpacerScrollPlan.cpp ../../native/render/opening/OpeningPresentationClock.cpp)
+target_compile_options(ScrollPresentationTests PRIVATE -Wall -Wextra -Werror)
+add_test(NAME ScrollPresentationTests COMMAND ScrollPresentationTests)

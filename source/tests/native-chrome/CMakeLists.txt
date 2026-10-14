@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.20)
+project(BasicScrollerHistoryTests LANGUAGES CXX)
+enable_testing()
+add_executable(iw_basic_scroller_history_tests BasicScrollerHistoryTests.cpp ../../native/render/chrome/BasicScrollerHistory.cpp)
+target_compile_features(iw_basic_scroller_history_tests PRIVATE cxx_std_20)
+target_compile_options(iw_basic_scroller_history_tests PRIVATE -Wall -Wextra -Werror)
+add_test(NAME BasicScrollerHistory COMMAND iw_basic_scroller_history_tests)

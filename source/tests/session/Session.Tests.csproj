@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../backend/Session/Cohort/*.cs" Link="Session/Cohort/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Preferences/*.cs" Link="Preferences/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/GameSession/IPlayerCohortTransport.cs" Link="GameSession/IPlayerCohortTransport.cs" />
+    <Compile Include="../../backend/Overlay/Players/*.cs" Link="Overlay/Players/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Overlay/Themes/*.cs" Link="Overlay/Themes/%(Filename)%(Extension)" />
+    <Compile Include="../backend/TestAssert.cs" Link="Fixtures/TestAssert.cs" />
+    <Compile Include="../../backend/GameSession/BoundLocalActorFlagsTransport.cs" Link="GameSession/BoundLocalActorFlagsTransport.cs" />
+    <Compile Include="../features/RecordingFlagsTransport.cs" Link="Fixtures/RecordingFlagsTransport.cs" />
+    <Compile Include="../../backend/OpenControls/*.cs" Link="OpenControls/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/QuickMenu/*.cs" Link="QuickMenu/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Session/*.cs" Link="Session/%(Filename)%(Extension)" Exclude="../../backend/Session/RetailSessionTransportFactory.cs" />
+    <Compile Include="../../backend/GameSession/IOwnedTeammateStateTransport.cs" Link="GameSession/IOwnedTeammateStateTransport.cs" />
+    <Compile Include="../../backend/GameSession/IRetailSessionTransport.cs" Link="GameSession/IRetailSessionTransport.cs" />
+    <Compile Include="../../backend/GameSession/ILocalGodmodeTransport.cs" Link="GameSession/ILocalGodmodeTransport.cs" />
+    <Compile Include="../../backend/GameSession/BoundPlayerFlagsTransport.cs" Link="GameSession/BoundPlayerFlagsTransport.cs" />
+    <Compile Include="../../backend/Features/**/*.cs" Link="Features/%(RecursiveDir)%(Filename)%(Extension)" />
+    <Compile Include="../../backend/FeatureState/*.cs" Link="FeatureState/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Diagnostics/*.cs" Link="Diagnostics/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Players/*.cs" Link="Players/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Players/LocalBinding/**/*.cs" Link="Players/LocalBinding/%(RecursiveDir)%(Filename)%(Extension)" />
+    <Compile Include="../backend/Players/LocalBinding/LocalBindingMemoryFixture.cs" Link="Fixtures/LocalBindingMemoryFixture.cs" />
+    <Compile Include="../backend/Players/LocalObservation/LocalActorMemoryFixture.cs" Link="Fixtures/LocalActorMemoryFixture.cs" />
+    <Compile Include="../backend/Players/LocalObservation/LocalActorFlagsMemoryFixture.cs" Link="Fixtures/LocalActorFlagsMemoryFixture.cs" />
+    <Compile Include="../../backend/Players/LocalObservation/*.cs" Link="Players/LocalObservation/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/SessionLifecycle/*.cs" Link="SessionLifecycle/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Overlay/*.cs" Exclude="../../backend/Overlay/ForegroundGame.cs;../../backend/Overlay/WindowsKeyState.cs" Link="Overlay/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Validation/*.cs" Link="Validation/%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- The session suite exercises the production controller across the owned cleanup boundary -->
+    <Compile Include="../../backend/Controller/**/*.cs" Link="Controller/%(RecursiveDir)%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Ipc/*.cs" Link="Ipc/%(Filename)%(Extension)" />
+    <Compile Include="../backend/Time/ManualTimeProvider.cs" Link="Fixtures/ManualTimeProvider.cs" />
+    <Compile Include="../backend/Players/PlayerStateMemoryFixture.cs" Link="Fixtures/PlayerStateMemoryFixture.cs" />
+  </ItemGroup>
+</Project>

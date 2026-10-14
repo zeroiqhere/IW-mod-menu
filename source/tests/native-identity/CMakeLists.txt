@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(SteamIdentityFixture LANGUAGES CXX)
+enable_testing()
+include("${CMAKE_CURRENT_LIST_DIR}/../../native/identity/SteamIdentityTargets.cmake")
+iw_add_steam_identity_fixture()

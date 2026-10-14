@@ -1,0 +1,45 @@
+{
+  "labelsInSourceOrder": [
+    "God Mode",
+    "Noclip",
+    "Bind Noclip To [{+frag}]",
+    "Unlimited Ammo",
+    "Unlimited Equipment",
+    "Modify Score",
+    "Perk Menu",
+    "No Target",
+    "Reduced Spread",
+    "Unlimited Sprint",
+    "Respawn",
+    "Revive",
+    "Restart Game",
+    "Disconnect"
+  ],
+  "choices": {
+    "Unlimited Ammo": [
+      "Continuous",
+      "Reload",
+      "Disable"
+    ],
+    "Modify Score": [
+      "1000000",
+      "100000",
+      "10000",
+      "1000",
+      "100",
+      "10",
+      "0",
+      "-10",
+      "-100",
+      "-1000",
+      "-10000",
+      "-100000",
+      "-1000000"
+    ],
+    "Restart Game": [
+      "Full",
+      "Fast"
+    ]
+  },
+  "sourceSha256": "3e8ee8a24c25f74fe45d146f5b52ae466afdb120e0987e97c90a78c36720f2b5"
+}

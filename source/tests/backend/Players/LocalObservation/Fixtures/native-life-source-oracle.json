@@ -1,0 +1,30 @@
+{
+  "sourceWrapper": "https://github.com/CF4x99/Apparition/blob/307e94c1b1d6537ba7a2a71b32a22d563d3ea25c/Menu/utilities.gsc#L1296",
+  "nativeBuildSha256": "a883ee28ee9f552c63d8ed1e352f60501b2e256d8857ca178c6dd3aae622723b",
+  "nativeIsAliveBodySha256": "0543371467eba1b6c0fff9c10543dbf969260b36c321862cc035c72f63be53db",
+  "nativeSessionGetterPrefixSha256": "b0c2b335937cb3f83cc1f487f65a9ae48ead43d11d587f6862522dd53881de78",
+  "enginePredicate": "signed entity health > 0",
+  "sessionPredicate": "defined session string and string != spectator",
+  "definedSessionCases": [
+    {
+      "value": 0,
+      "decodedString": "playing",
+      "positiveHealthLife": "Alive"
+    },
+    {
+      "value": 1,
+      "decodedString": "dead",
+      "positiveHealthLife": "Alive"
+    },
+    {
+      "value": 2,
+      "decodedString": "spectator",
+      "positiveHealthLife": "Dead"
+    },
+    {
+      "value": 3,
+      "decodedString": "intermission",
+      "positiveHealthLife": "Alive"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../backend/Players/PlayerCohort*.cs" Link="Players/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Players/PlayerStateReader.Cohort.cs" Link="Players/PlayerStateReader.Cohort.cs" />
+    <Compile Include="../../backend/Features/*.cs" Link="Features/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Features/Godmode/*.cs" Link="Features/Godmode/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Session/TeammateGodmodeCleanup.cs" Link="Session/TeammateGodmodeCleanup.cs" />
+    <Compile Include="../../backend/SessionLifecycle/SessionShutdown.cs" Link="SessionLifecycle/SessionShutdown.cs" />
+    <Compile Include="../../backend/SessionLifecycle/SessionShutdownResult.cs" Link="SessionLifecycle/SessionShutdownResult.cs" />
+    <Compile Include="../../backend/Session/TeammateGodmodeSession.Publication.cs" Link="Session/TeammateGodmodeSession.Publication.cs" />
+    <Compile Include="../../backend/Session/TeammateGodmodeSession.OwnedProof.cs" Link="Session/TeammateGodmodeSession.OwnedProof.cs" />
+    <Compile Include="../../backend/Session/TeammateGodmodeOwnershipTransport.cs" Link="Session/TeammateGodmodeOwnershipTransport.cs" />
+    <Compile Include="../../backend/Players/OwnedPlayerFlagsState.cs" Link="Players/OwnedPlayerFlagsState.cs" />
+    <Compile Include="../../backend/Players/PlayerStateReader.OwnedFlags.cs" Link="Players/PlayerStateReader.OwnedFlags.cs" />
+    <Compile Include="../../backend/Session/TeammateGodmodeSession.cs" Link="Session/TeammateGodmodeSession.cs" />
+    <Compile Include="../../backend/Players/PlayerStateReader.cs" Link="Players/PlayerStateReader.cs" />
+    <Compile Include="../../backend/Validation/*.cs" Link="Validation/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

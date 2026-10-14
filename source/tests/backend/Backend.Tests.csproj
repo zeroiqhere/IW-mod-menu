@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../backend/Overlay/MenuSourceChoiceRole.cs" Link="Overlay/MenuSourceChoiceRole.cs" />
+    <Compile Include="../../backend/Overlay/MenuSourceChoiceRoles.cs" Link="Overlay/MenuSourceChoiceRoles.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="../../backend/Players/PlayerCohort*.cs" Link="Players/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Players/PlayerStateReader.Cohort.cs" Link="Players/PlayerStateReader.Cohort.cs" />
+    <Compile Include="../../backend/Overlay/Players/*.cs" Link="Overlay/Players/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/GameSession/OwnedTeammateFlagsRegistry.cs" Link="GameSession/OwnedTeammateFlagsRegistry.cs" />
+    <Compile Include="../../backend/Players/OwnedPlayerFlagsState.cs" Link="Players/OwnedPlayerFlagsState.cs" />
+    <Compile Include="../../backend/Players/PlayerStateReader.OwnedFlags.cs" Link="Players/PlayerStateReader.OwnedFlags.cs" />
+    <Compile Include="../../backend/GameSession/BoundPlayerFlagsTransport.cs" Link="GameSession/BoundPlayerFlagsTransport.cs" />
+    <Compile Include="../../backend/GameSession/OwnedTeammateFlagsAccess.cs" Link="GameSession/OwnedTeammateFlagsAccess.cs" />
+    <Compile Include="../../backend/GameSession/IOwnedTeammateStateTransport.cs" Link="GameSession/IOwnedTeammateStateTransport.cs" />
+    <Compile Include="../../backend/Overlay/Themes/*.cs" Link="Overlay/Themes/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/GameSession/BoundLocalActorFlagsTransport.cs" Link="GameSession/BoundLocalActorFlagsTransport.cs" />
+    <Compile Include="../../backend/Features/ITeammateFlagsTransport.cs" Link="Features/ITeammateFlagsTransport.cs" />
+    <Compile Include="../../backend/Overlay/QuickMenuViewContext.cs" Link="Overlay/QuickMenuViewContext.cs" />
+    <Compile Include="../../backend/GameSession/LocalExecutableHeaderCache.cs" Link="GameSession/LocalExecutableHeaderCache.cs" />
+    <Compile Include="../../backend/GameSession/LocalExecutableHeader.cs" Link="GameSession/LocalExecutableHeader.cs" />
+    <Compile Include="../../backend/Overlay/QuickMenuRows.cs" Link="Overlay/QuickMenuRows.cs" />
+    <Compile Include="../../backend/Overlay/BasicScriptsMenuRows.cs" Link="Overlay/BasicScriptsMenuRows.cs" />
+
+    <Compile Include="../../backend/Overlay/MenuSurface.cs" Link="Overlay/MenuSurface.cs" />
+
+    <Compile Include="../../backend/Runtime/SessionObservationPolling.cs" Link="Runtime/SessionObservationPolling.cs" />
+    <Compile Include="../../backend/Players/LocalObservation/*.cs" Link="Players/LocalObservation/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Players/PlayerStateReader.cs" Link="Players/PlayerStateReader.cs" />
+    <Compile Include="../../backend/Players/LocalBinding/**/*.cs" Link="Players/LocalBinding/%(RecursiveDir)%(Filename)%(Extension)" />
+    <Compile Remove="Fixtures/**/*.cs" />
+    <Compile Include="../../backend/OpenControls/*.cs" Link="OpenControls/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/QuickMenu/*.cs" Link="QuickMenu/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Controller/*.cs" Link="Controller/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Controller/ChromeTheme/*.cs" Link="Controller/ChromeTheme/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Controller/Instructions/*.cs" Link="Controller/Instructions/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Ipc/*.cs" Link="Ipc/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/Session/LocalMenuAdmissionSnapshot.cs" Link="Session/LocalMenuAdmissionSnapshot.cs" />
+    <Compile Include="../../backend/Session/IBackendSession.cs" Link="Session/IBackendSession.cs" />
+    <Compile Include="../../backend/Session/LocalMenuPreferenceScope.cs" Link="Session/LocalMenuPreferenceScope.cs" />
+    <Compile Include="../../backend/Preferences/*.cs" Link="Preferences/%(Filename)%(Extension)" />
+    <Compile Include="../../backend/SessionLifecycle/SessionShutdownResult.cs" Link="SessionLifecycle/SessionShutdownResult.cs" />
+    <Compile Include="../../backend/Overlay/MenuOpenTransition.cs" Link="Overlay/MenuOpenTransition.cs" />
+    <Compile Include="../../backend/Overlay/MenuOpening.cs" Link="Overlay/MenuOpening.cs" />
+    <Compile Include="../../backend/Overlay/MenuOptionCapacity.cs" Link="Overlay/MenuOptionCapacity.cs" />
+    <Compile Include="../../backend/Overlay/MenuDesignDraft.cs" Link="Overlay/MenuDesignDraft.cs" />
+    <Compile Include="../../backend/Overlay/MenuDesignTransition.cs" Link="Overlay/MenuDesignTransition.cs" />
+    <Compile Include="../../backend/Overlay/MenuPreferenceRebuild.cs" Link="Overlay/MenuPreferenceRebuild.cs" />
+    <Compile Include="../../backend/Overlay/MenuPreferenceRefresh.cs" Link="Overlay/MenuPreferenceRefresh.cs" />
+    <Compile Include="../../backend/Overlay/MenuCredits.cs" Link="Overlay/MenuCredits.cs" />
+    <Compile Include="../../backend/Overlay/MenuPosition.cs" Link="Overlay/MenuPosition.cs" />
+    <Compile Include="../../backend/Overlay/LocalMenuPositionEditorState.cs" Link="Overlay/LocalMenuPositionEditorState.cs" />
+    <Compile Include="../../backend/Overlay/OpeningControlsView.cs" Link="Overlay/OpeningControlsView.cs" />
+    <Compile Include="../../backend/Overlay/OpeningControlsMenuRows.cs" Link="Overlay/OpeningControlsMenuRows.cs" />
+    <Compile Include="../../backend/Overlay/MenuSnapshot.cs" Link="Overlay/MenuSnapshot.cs" />
+    <Compile Include="../../backend/Overlay/ScrollAnimationDraft.cs" Link="Overlay/ScrollAnimationDraft.cs" />
+    <Compile Include="../../backend/Overlay/MenuThemes.cs" Link="Overlay/MenuThemes.cs" />
+    <Compile Include="../../backend/Overlay/LocalWidthEditorState.cs" Link="Overlay/LocalWidthEditorState.cs" />
+    <Compile Include="../../backend/Overlay/InstructionPosition.cs" Link="Overlay/InstructionPosition.cs" />
+    <Compile Include="../../backend/Overlay/InstructionThemeEvent.cs" Link="Overlay/InstructionThemeEvent.cs" />
+    <Compile Include="../../backend/Overlay/InstructionThemeState.cs" Link="Overlay/InstructionThemeState.cs" />
+    <Compile Include="../../backend/Overlay/InstructionHudState.cs" Link="Overlay/InstructionHudState.cs" />
+    <Compile Include="../../backend/Overlay/InstructionPositionEditor.cs" Link="Overlay/InstructionPositionEditor.cs" />
+    <Compile Include="../../backend/Overlay/MenuInstructionRows.cs" Link="Overlay/MenuInstructionRows.cs" />
+    <Compile Include="../../backend/Overlay/MenuAppearance.cs" Link="Overlay/MenuAppearance.cs" />
+    <Compile Include="../../backend/Overlay/MenuChoiceDrafts.cs" Link="Overlay/MenuChoiceDrafts.cs" />
+    <Compile Include="../../backend/Overlay/OverlayMenuBuilder.cs" Link="Overlay/OverlayMenuBuilder.cs" />
+    <Compile Include="../../backend/Overlay/OverlayNavigation.cs" Link="Overlay/OverlayNavigation.cs" />
+    <Compile Include="../../backend/Runtime/BackendOptions.cs" Link="Runtime/BackendOptions.cs" />
+    <Compile Include="../../backend/Runtime/OtherToolPolicy.cs" Link="Runtime/OtherToolPolicy.cs" />
+    <Compile Include="../../backend/Runtime/MenuPhasePublication.cs" Link="Runtime/MenuPhasePublication.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Export/Palette/palette-source-oracle.json" Link="Fixtures/palette-source-oracle.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Overlay/Themes/theme-callback-source-oracle.json" Link="Fixtures/theme-callback-source-oracle.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="QuickMenu/Fixtures/source-oracle.json" Link="Fixtures/QuickMenu/source-oracle.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Players/LocalObservation/Fixtures/native-life-source-oracle.json" Link="Fixtures/native-life-source-oracle.json" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Overlay/Fixtures/reference-palette.json" Link="Fixtures/reference-palette.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

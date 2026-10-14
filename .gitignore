@@ -1,0 +1,14 @@
+# Generated build files stay outside the preserved snapshot
+/build/
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+.venv/
+
+# Local launcher sessions contain machine-specific state
+/session-*/
+/current-session.json
+/diagnostic-session.json
+/memory-channel.json
+*.launcher-tmp

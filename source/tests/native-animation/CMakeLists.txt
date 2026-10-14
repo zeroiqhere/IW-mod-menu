@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(WidthAnimationTests LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+enable_testing()
+# Explicit clocks make the renderer helper testable without Windows, a GPU or sleeps
+add_executable(WidthAnimationTests WidthAnimationTests.cpp ../../native/render/WidthAnimation.cpp)
+target_compile_options(WidthAnimationTests PRIVATE -Wall -Wextra -Werror)
+add_test(NAME WidthAnimationTests COMMAND WidthAnimationTests)
